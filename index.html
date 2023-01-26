@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asurascans</title>
+      <!-- Bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+ 
+
+  <!-- Google API Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  
+
+  <!-- Font Awaesome Link -->
+  <script src="https://kit.fontawesome.com/6acd8629fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section id = "navbar">
+          <!-- navbar here -->
+          <nav class="navbar navbar-expand-lg navbar-dark " style = "background-color: blueviolet;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./images/asurascans-logo.webp" alt="Bootstrap" width="100" height="100">
+
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#popular">Popular Today</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#popular">Popular Today</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Languages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Korean</a></li>
+                      <li><a class="dropdown-item" href="#">Turkish</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active">Comics</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn  btn-dark" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+          <!-- Home section -->
+
+        <section id = "home">
+          <div class="container-fluid">
+            <!-- will have the title of manhwa -->
+
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="contains">
+                  <div class="manhwa-title-tag">
+                    
+                    <h2 class = "manhwa-title-text">Reincarnation of suicidal battle god</h2>
+                  </div>
+                  <div class="manhwa-p-tag">
+                    <p class = "manhwa">Manhwa</p>
+                    <p><span class = "tag-hover">Action</span>, <span class = "tag-hover">Fantasy</span>, <span class = "tag-hover">Returner</span></p>
+                    <span><h4 class = "summary-text">SUMMARY</h4></span>
+                    <p>Zephyr, the last human dies after his battle with DemonGod.He is sent back 10 years back with various buffs to stop demon invasion and exact his revenge.</p>
+                    <span><p>Status: Ongoing</p></span>
+                  </div>
+                  <img src="./images/carousel-image-1.webp" alt="" class = "carousel-image">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contains">
+                  <div class="manhwa-title-tag">
+                    <h2 class = "manhwa-title-text">Duke Pendragon</h2>
+                  </div>
+                  <div class="manhwa-p-tag">
+                    <p class = "manhwa">Manhwa</p>
+                    <p><span class = "tag-hover">Action</span>, <span class = "tag-hover">Fantasy</span>, <span class = "tag-hover">Demon</span></p>
+                    <span><h4 class = "summary-text">SUMMARY</h4></span>
+                    <p>Born as a successor of low-ranking noble household, Raven Varte bears a sin of plotting a rebellion against the empire.
+                      He gets reborned in the prominent household of Pendragons, the dragon contractors.
+                    </p>
+                    <span><p>Status: Ongoing</p></span>
+                  </div>
+                  <img src="./images/carousel-image-2.png" alt="" class = "carousel-image">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="contains">
+                  <div class="manhwa-title-tag">
+                    <h2 class = "manhwa-title-text">Lord's Coins aren't Decreasing</h2>
+                  </div>
+                  <div class="manhwa-p-tag">
+                    <p class = "manhwa">Manhwa</p>
+                    <span class = "tag-hover">Action</span>, <span class = "tag-hover">Fantasy</span>, <span class = "tag-hover">Time travel</span>
+                    <span><h4 class = "summary-text">SUMMARY</h4></span>
+                    <p>Coin market that goes beyond the dimensions, A newcomer has appeared and turned the Dimensional Trading Center upside down!
+                      Erun Steelguard, the enemy of all traders gets sent back to past after his tragic death.</p>
+                    <span><p>Status: Ongoing</p></span>
+                  </div>
+                  <img src="./images/carousel-image-3.jpg" alt="" class = "carousel-image">
+                </div>
+              </div>
+            </div>
+            <button class="car-button carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="control-buttons carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="car-button carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="control-buttons-nxt carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </div>
+        </section>
+
+        <!-- Popular Section -->
+        <section id = "popular">
+          <div class="container-fluid">
+            <h3 class = "popular-tag">Popular Today</h3>
+            <hr>
+          </div>
+          <div class="popular-card-holder">
+            <div class="flex-container">
+            <div class="popular-card">
+
+              <img src="./images/popular-image-1.png" alt="" class="popular-image">
+              <div class="popular-text">
+                <span><h4 class = "popular-heading">Return of Constellation</h4></span>
+                <p class = "popular-para">Chapter 26</p>
+                  <p class = "popular-para">Rating: 9.4</p>
+              </div>
+            </div>
+            <div class="popular-card">
+
+              <img src="./images/popular-image-2.jpg" alt="" class="popular-image">
+              <div class="popular-text">
+                <span><h4 class = "popular-heading">Dr. Player</h4></span>
+                <p class = "popular-para">Chapter 26</p>
+                  <p class = "popular-para">Rating: 9.4</p>
+              </div>
+            </div>
+            <div class="popular-card">
+
+              <img src="./images/popular-image-3.jpg" alt="" class="popular-image">
+              <div class="popular-text">
+                <span><h4 class = "popular-heading">Demon Lord Martial Art's Ascension</h4></span>
+                <p class = "popular-para">Chapter 26</p>
+                  <p class = "popular-para">Rating: 9.4</p>
+              </div>
+            </div>
+            <div class="popular-card">
+
+              <img src="./images/popular-image-4.jpg" alt="" class="popular-image">
+              <div class="popular-text">
+                <span><h4 class = "popular-heading">Life of Magic Academy Mage</h4></span>
+                <p class = "popular-para">Chapter 26</p>
+                  <p class = "popular-para">Rating: 9.4</p>
+              </div>
+            </div>
+            <div class="popular-card">
+
+              <img src="./images/popular-image-5.jpg" alt="" class="popular-image">
+              <div class="popular-text">
+                <span><h4 class = "popular-heading">The Newbie is Too Strong</h4></span>
+                <p class = "popular-para">Chapter 26</p>
+                  <p class = "popular-para">Rating: 9.4</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <hr class = "section-break">
+        </section>
+        
+        <!-- Latest Updates Section -->
+        <section id = "updates">
+          <div class="container-fluid">
+            <h3 class = "popular-tag">Latest Updates</h3>
+            <hr class = "line-update">
+          </div>
+          <div class="row update">
+            <div class=" update-item-container">
+              <span>
+              <img class="update-image" src="./images/update-image-1.jpg" alt="">
+            </span>
+            
+            <div class="update-brief">
+              <span><h4 class = "popular-heading">The Newbie is Too Strong</h4></span>
+              <span>
+                <ul>
+                </ul>
+                <div>
+                <li class = "update-para">Chapter 117</li><span class = "time">26 min ago</span>
+                <li class = "update-para">Chapter 116</li><span class = "time">6 min ago</span>
+                <li class = "update-para">Chapter 115</li><span class = "time">26 min ago</span>
+              </div>
+              </span>
+            </div>
+          </div>
+          <div class=" update-item-container">
+            <span>
+            <img class="update-image" src="./images/update-image-2.jpg" alt="">
+          </span>
+          
+          <div class="update-brief">
+            <span><h4 class = "popular-heading">I Regressed As Duke
+
+            </h4></span>
+            <span>
+              <ul>
+              </ul>
+              <div>
+              <li class = "update-para">Chapter 120</li><span class = "time">26 min ago</span>
+              <li class = "update-para">Chapter 119</li><span class = "time">6 min ago</span>
+              <li class = "update-para">Chapter 118</li><span class = "time">26 min ago</span>
+            </div>
+            </span>
+          </div>
+        </div>
+        <div class=" update-item-container">
+          <span>
+          <img class="update-image" src="./images/update-image-3.webp" alt="">
+        </span>
+        
+        <div class="update-brief">
+          <span><h4 class = "popular-heading">I Obtained Mythic Item</h4></span>
+          <span>
+            <ul>
+            </ul>
+            <div>
+            <li class = "update-para">Chapter 45</li><span class = "time">26 min ago</span>
+            <li class = "update-para">Chapter 44</li><span class = "time">6 min ago</span>
+            <li class = "update-para">Chapter 43</li><span class = "time">26 min ago</span>
+          </div>
+          </span>
+        </div>
+      </div>
+      <div class=" update-item-container">
+        <span>
+        <img class="update-image" src="./images/update-image-4.webp" alt="">
+      </span>
+      
+      <div class="update-brief">
+        <span><h4 class = "popular-heading">The Live</h4></span>
+        <span>
+          <ul>
+          </ul>
+          <div>
+          <li class = "update-para">Chapter 135</li><span class = "time">26 min ago</span>
+          <li class = "update-para">Chapter 134</li><span class = "time">6 min ago</span>
+          <li class = "update-para">Chapter 133</li><span class = "time">26 min ago</span>
+        </div>
+        </span>
+      </div>
+    </div>
+      </div>
+      <hr class = "section-break">
+        </section>
+
+        <!-- Footer Section here -->
+        <section id = "footer">
+          <div class="footer-text">
+            <h3>Privacy Policy</h3>
+            <h3>Digital Millennium Act</h3>
+            <h3>terms of Service</h3>
+          </div>
+          <div class="symbol">
+            <img src="./images/asurascans-logo.webp" alt="" class = "logo">
+          </div>
+        </section>
+</body>
+</html>
